@@ -3,7 +3,7 @@
 
 // your code
 let sum = 0;
-while (sum < 21) {
+while (sum < 210) {
     console.log(sum);
     sum++;
 }
