@@ -2,10 +2,14 @@
 // Результат присвойте переменной sum
 
 // your code
-let sum
-
-let x=1;
-while (x<21) {
-    console.log(x);
-    x++;
+let sum = 0;
+while (sum < 21) {
+    console.log(sum);
+    sum++;
 }
+
+// let x=1;
+// while (x<21) {
+//     console.log(x);
+//     x++;
+// }
