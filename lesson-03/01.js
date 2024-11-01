@@ -4,5 +4,5 @@ function calculateAverage(nam1 , num2) {
     return (nam1 , num2) / 2
 }
 
-let result = calculateAverage(5, 10);
+let result = calculateAverage(10, 15);
 console.log(result);
