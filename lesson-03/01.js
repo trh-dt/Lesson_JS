@@ -1,3 +1,5 @@
 // Напишите функцию calculateAverage, которая принимает 2 числа и возвращает их среднее арифметическое
 
-function calculateAverage() {}
+function calculateAverage(nam1 , num2) {
+    return (nam1 , num2) / 2
+}
