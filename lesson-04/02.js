@@ -15,4 +15,7 @@
 Подсказка: можно использовать функцию `includesElement`, которую мы написали ранее. Переписывать её не нужно, она доступна по всему проекту за счёт hoisting.
 */
 
-function findUniqueElements() {}
+function findUniqueElements(array) {
+    return [...new Set (array)];
+}
+console.log(findUniqueElements([1, 2, 3, 2, 3, 4, 1, 5]));
